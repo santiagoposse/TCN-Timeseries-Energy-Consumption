@@ -1,0 +1,6 @@
+# for pyenv
+.python-version
+
+# for OSX
+.DS_Store
+*/.DS_Store
