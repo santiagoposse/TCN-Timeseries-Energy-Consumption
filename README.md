@@ -41,13 +41,6 @@ foobar.pluralize('goose')
 foobar.singularize('phenomena')
 ```
 
-## Contributing
-
-Pull requests are welcome. For major changes, please open an issue first
-to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
-
 ## **File & Directory Structure**
 - **`TCN.ipynb`: source code for how the model was trained and feature engineering**
 - **`experiment.ipynb`: the main experiment script to see results of models**
