@@ -8,6 +8,7 @@ Original dataset can be found here: https://huggingface.co/datasets/EDS-lab/elec
 
 - Hardware
   - Developed under Windows with Nvidia 3080ti
+  - Tested on macOS but was not compatible due to tensorflow versions
 - Software
   - Python 3.9.2
     - If using `pyenv`, use inside the file directory:
