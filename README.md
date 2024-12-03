@@ -40,9 +40,7 @@ Please be aware the original parquet files are not located in this repository th
 - Open `experiment.ipynb` and run the cells to reproduce the experiment results.
   - It will be setup to run the final expirement results which will be the `tcn_model_0.8_4.h5`.
   - Produces the following metrics accuracy, precision, recall, and F-1 for each class label. Additionally display a confusion matrix.
-
-  ADD IMAGES HERE OF LOSS, ACC, 4 METRICS, CLASSIFCATION REPORT, CONFUSION MATRIX
-
+  
 ## **File & Directory Structure**
 - **`TCN.ipynb`: source code for how the model was trained and feature engineering**
 - **`experiment.ipynb`: the main experiment script to see results of models**
