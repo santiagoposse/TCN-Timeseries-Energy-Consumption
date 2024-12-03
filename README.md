@@ -10,7 +10,7 @@ Original dataset can be found here: https://huggingface.co/datasets/EDS-lab/elec
   - Developed under Windows with Nvidia 3080ti
 - Software
   - Python 3.9.2
-    - If using `pyenv`, use:
+    - If using `pyenv`, use inside the file directory:
       ```bash
       pyenv install 3.9.2
       pyenv local 3.9.2
