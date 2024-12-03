@@ -21,12 +21,12 @@ Original dataset can be found here: https://huggingface.co/datasets/EDS-lab/elec
       pip install
       matplotlib numpy==1.26.4 pandas scikit_learn tensorflow==2.10.1 tensorflow-addons==0.22.0 pyarrow==18.0.0 jupyter keras-tcn --no-dependencies
       ```
-    - **Open or restart vsCode to the saved directory and you can now run the expirement**
+    - **Open or restart vsCode to the saved directory and you can now run the experiment**
       - If prompted by jupyter to install ipykernal press install and it will begin running
 
 ## Usage and Results
 
-### There are three main notebooks: `TCN.ipynb`, `expirement.ipynb`, `data_handeling.ipynb`
+### There are three main notebooks: `TCN.ipynb`, `experiment.ipynb`, `data_handeling.ipynb`
 
 - To quickly see the results and see accuracy, precision, recall and F-1 score head to `expirement.ipynb`.
 - To see the source as to how the network was trained or feature engineering head to `TCN.ipynb`.
