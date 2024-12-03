@@ -11,21 +11,18 @@ Original dataset can be found here: https://huggingface.co/datasets/EDS-lab/elec
   - Tested on macOS but was not compatible due to tensorflow versions
 - Software
   - Python 3.9.2
-    - If using `pyenv`, use inside the file directory:
+    - **Create a Python 3.9.2 environment using Anaconda Navigator**
+      - In the anaconda promt
+        ```bash
+        conda activate your_environment_name
+        ```
+    - **Install dependencies in the prompt, install one at a time or else not all dependencies will be fully installed**:
       ```bash
-      pyenv install 3.9.2
-      pyenv local 3.9.2
+      pip install
+      matplotlib numpy==1.26.4 pandas scikit_learn tensorflow==2.10.1 tensorflow-addons==0.22.0 pyarrow==18.0.0 jupyter keras-tcn --no-dependencies
       ```
-    - **Install dependencies**:
-      ```bash
-      pip install --upgrade pip
-      pip install -r requirements.txt
-      ```
-    - **Or install dependencies manually, as long as Python==3.9.2**:
-      ```bash
-      pip install --upgrade pip
-      pip install keras_tcn==3.5.0 matplotlib==3.9.3 numpy==2.1.3 pandas==2.2.3 scikit_learn==1.5.2 tensorflow==2.10.1 tensorflow-addons==0.22.0 pyarrow==18.0.0 jupyter
-      ```
+    - **Open or restart vsCode to the saved directory and you can now run the expirement
+      - If prompted by jupyter to install ipykernal press install and it will begin running
 
 ## Usage and Results
 
