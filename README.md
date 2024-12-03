@@ -43,13 +43,13 @@ Please be aware the original parquet files are not located in this repository th
   - The classes were 0 <= 28, 28 <= 56, 56 <= 84, and > 84 all in kWh. These metrics were taken from ofgem.gov.uk, Great Britain’s independent energy regulator with slight changes due to different years. Important to note, this is for weekly samples.
   - Produces the following metrics: accuracy, precision, recall, and F-1 for each class label. Additionally display a confusion matrix.
     
-  [<img src="logging_images/classification_metrics_and_report.png" width="250"/>](logging_images/classification_metrics_and_report.png)
-  [<img src="logging_images/confusion_matrix.png" width="250"/>](logging_images/confusion_matrix.png)
+  [<img src="logging_images/classification_metrics_and_report.png" width="350"/>](logging_images/classification_metrics_and_report.png)
+  [<img src="logging_images/confusion_matrix.png" width="320"/>](logging_images/confusion_matrix.png)
 
   - Can additionally check `logging_images/` to see the accuracy and loss versus epochs while training
     
-  [<img src="logging_images/acc_vs_epoch_0.8_4.png" width="300"/>](logging_images/acc_vs_epoch_0.8_4.png)
-  [<img src="logging_images/loss_vs_epoch_0.8_4.png" width="300"/>](logging_images/loss_vs_epoch_0.8_4.png)
+  [<img src="logging_images/acc_vs_epoch_0.8_4.png" width="450"/>](logging_images/acc_vs_epoch_0.8_4.png)
+  [<img src="logging_images/loss_vs_epoch_0.8_4.png" width="450"/>](logging_images/loss_vs_epoch_0.8_4.png)
 
   - Note while `tcn_model_0.8_4.h5` is the final and main expirement, older TCN models in the `saved_model/old_models/` can be also ran to see the affects of data size and window sizes. Overall, `tcn_model_0.8_4.h5` resulted in the best results for the task. The name scheme follows `tcn_model_datasetsize_windowsize.h5`
  
