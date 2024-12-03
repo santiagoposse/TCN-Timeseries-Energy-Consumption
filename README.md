@@ -21,7 +21,7 @@ Original dataset can be found here: https://huggingface.co/datasets/EDS-lab/elec
       pip install
       matplotlib numpy==1.26.4 pandas scikit_learn tensorflow==2.10.1 tensorflow-addons==0.22.0 pyarrow==18.0.0 jupyter keras-tcn --no-dependencies
       ```
-    - **Open or restart vsCode to the saved directory and you can now run the expirement
+    - **Open or restart vsCode to the saved directory and you can now run the expirement**
       - If prompted by jupyter to install ipykernal press install and it will begin running
 
 ## Usage and Results
