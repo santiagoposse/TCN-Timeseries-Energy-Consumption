@@ -49,7 +49,7 @@ Please be aware the original parquet files are not located in this repository th
   [<img src="logging_images/acc_vs_epoch_0.8_4.png" width="450"/>](logging_images/acc_vs_epoch_0.8_4.png)
   [<img src="logging_images/loss_vs_epoch_0.8_4.png" width="450"/>](logging_images/loss_vs_epoch_0.8_4.png)
 
-  - Note while `tcn_model_0.8_4.h5` is the final and main expirement, older TCN models in the `saved_model/old_models/` can be also ran to see the affects of data size and window sizes. Overall, `tcn_model_0.8_4.h5` resulted in the best results for the task. The name scheme follows `tcn_model_datasetsize_windowsize.h5`
+  - Note while `tcn_model_0.8_4.h5` is the final and main experiment, older TCN models in the `saved_model/old_models/` can be also ran to see the effects of data size and window sizes. Overall, `tcn_model_0.8_4.h5` resulted in the best results for the task. The name scheme follows `tcn_model_datasetsize_windowsize.h5`
  
 ### To inspect source code
 - `TCN.ipynb` holds the model training code, metrics output, and some additional feature engineering. If using Python version 3.9.2 and tensorflow version 2.10.1 the file can be ran. The latest training session was saved to output and can be inspected.
